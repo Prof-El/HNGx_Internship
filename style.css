@@ -61,10 +61,12 @@ html {
 
   /* Profile */
 .my_info {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    
     height: 200px;
     border-radius: 50px;
     background: linear-gradient(315deg, #938a8a, #aea4a4);
@@ -97,7 +99,7 @@ html {
     display: flex;
     flex-direction: row;
     height: 50px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
 
   #day {
@@ -107,8 +109,12 @@ html {
   .time {
     display: flex;
     flex-direction: row;
-    height: 50px;
-    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 15px;
+    background-color: rgb(216, 227, 236);
+    border-radius: 15px;
  
   }
 
@@ -119,7 +125,9 @@ html {
 
   /* Default font size for larger devices */
 h3 {
-    font-size: 10px;
+    margin-top: -10px;
+    font-size: 15px;
+    padding: 2px;
   }
   
   /* Font size for small devices */
