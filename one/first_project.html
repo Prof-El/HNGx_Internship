@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+        
+  </head>
+  <body>
+    <div class="page">
+      <div class="menu">
+        <div class="icon">
+            <a href="https://github.com/username/repo">
+                <img class="github" src="https://github.com/favicon.ico" alt="GitHub icon" width="32" height="32">
+            </a>
+    
+        </div>
+
+        <div class="icon">
+            <a href="https://web.facebook.com/profile.php?id=100012909935302">
+                <img src="https://facebook.com/favicon.ico" alt="GitHub icon" width="32" height="32">
+            </a>
+        </div>
+
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/abel-emmanuel-a7270119a/">
+                <img src="https://linkedin.com/favicon.ico" alt="GitHub icon" width="32" height="32">
+            </a>
+        </div>
+
+        <div class="icon">
+            <a data-testid=“githubURL” href="https://github.com/username/repo">
+                <img src="https://twitter.com/favicon.ico" alt="GitHub icon" width="32" height="32">
+            </a>
+        </div>
+      </div>
+      <div class="profile">
+       <div class="pic">
+        <img data-testid="slackDisplayImage" class="my_pic" src="./image/my_picture.jpg" alt="Prof_El">
+       </div>
+       
+       <div class="my_info">
+        <h3>Emmanuel Abel Ugbede</h3>
+        <h3 data-testid="slackUserName">Display Name: Prof_El</h3>
+        <h3>Geologist|Frontend Engineer|Data Scientist</h3>
+        <h3 data-testid="myTrack">Track: Frontend</h3>
+        <div class="day">
+            <h3>Day: </p>
+            <h3 data-testid="currentDayOfTheWeek" id="day"></p>
+        </div>
+        <div class="time">
+            <h3>Time: </p>
+            <h3 data-testid="currentUTCTime" class="t" id="timestamp"></p>
+            <h3 id="utc"></p>
+        </div>
+       </div>
+      </div>
+    </div>
+    
+    <script src="myscripts.js"></script> 
+  </body>
+</html>

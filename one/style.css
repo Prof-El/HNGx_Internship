@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #8b8282;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* background: linear-gradient(315deg, #938a8a, #aea4a4); */
+  }
+
+
+
+  .page {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    align-items: center;
+    width: 10%;
+    height: 90vh;
+    margin-right: 2rem;
+    border-radius: 50px;
+    background: linear-gradient(315deg, #938a8a, #aea4a4);
+    box-shadow:  -18px -18px 36px #8b8282,
+             18px 18px 36px #bbb0b0;
+    
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 90px;
+    background: linear-gradient(315deg, #938a8a, #aea4a4);
+    box-shadow:  -7px -7px 13px #8b8282,
+                7px 7px 13px #bbb0b0
+  }
+
+  
+
+  /* Profile */
+.my_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 200px;
+    border-radius: 50px;
+    background: linear-gradient(315deg, #938a8a, #aea4a4);
+    box-shadow:  -18px -18px 36px #8b8282,
+             18px 18px 36px #bbb0b0;
+}
+
+
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 305px;
+    width: 305px;
+    border-radius: 200px;
+    box-shadow:  -18px -18px 36px #8b8282,
+             18px 18px 36px #bbb0b0;
+
+}
+
+  .my_pic {
+    height: 300px;
+    border-radius: 200px;
+    
+    
+  }
+
+  .day {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: -20px;
+  }
+
+  #day {
+    margin-left: 5px;
+  }
+
+  .time {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: -20px;
+ 
+  }
+
+  .t {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* Default font size for larger devices */
+h3 {
+    font-size: 10px;
+  }
+  
+  /* Font size for small devices */
+  @media screen and (max-width: 480px) {
+    h3 {
+      font-size: 20px;
+    }
+  }
+ 
+
+ 
